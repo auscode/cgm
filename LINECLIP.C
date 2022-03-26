@@ -1,3 +1,4 @@
+//input values x1:500 y1:300 x2:50 y2:200
 #include<stdio.h>
 #include<stdlib.h>
 #include<graphics.h>
@@ -5,6 +6,7 @@
 typedef struct coordinate
 {
 int x,y;
+
 char code[4];
 }PT;
 
